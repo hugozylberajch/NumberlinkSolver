@@ -1,21 +1,14 @@
-TASK 6 : 
 
-D'abord créer le Numberlink en initialisant : 
-- la map = matrice qui contient 0 ou le numéro du label 
-- créer un objet Numberlink appellé "test" avec le constructeur qui prend en paramètre (largeur du Numberlink,Hauteur du Numberlink,Nombre de label,la map)
+Create the Numberlink by initializing : 
+- the initial map = matrix that contains 0s and the labels number 
+- Create the numberlink with parameters : (width ,height ,Number of labels ,map)
 
-Pour afficher le Numberlink : 
+To display the Numberlink : 
 new Image2dViewer(test.CreateNumberlink());
 
-Initialiser le tableau flow = tableau de taille nombre de label et avec que des 0 dedans.
+Initialize the flow matrix = np.zeros(Number of labels)
 
-Pour résoudre le Numberlink : 
+Sole the Numberlink : 
 test.NumberlinkSolver(test.map,test.LabelEndPosition(),test.LabelFirstPosition(),0,flow)
 
-TASK 7 : (a)
 
-test.CountNumberlink()
-
-(b)
-
-test.LessThanK(k)
